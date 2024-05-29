@@ -520,3 +520,10 @@ main {
   position: absolute;
   top: 10%;
 }
+
+/* Virtual Events Section */
+
+.virtual-events-section {
+  display: flex;
+  justify-content: center;
+}
