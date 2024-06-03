@@ -864,6 +864,17 @@ p {
   .integrations-section .card-container .card {
     width: 100%;
   }
+
+  /* Why Swipe */
+
+  .why-swipe-section .card-container {
+    flex-wrap: wrap;
+  }
+
+  .why-swipe-section .card-container .card {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
 }
 
 /* MOBILE SIZE */
@@ -888,6 +899,17 @@ p {
 
   .integrations-section .col-right {
     display: none;
+  }
+
+  /* Why Swipe */
+
+  .why-swipe-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+  }
+
+  .why-swipe-section .card-container .card .icon {
+    height: 35px;
   }
 }
 
