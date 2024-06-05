@@ -460,8 +460,6 @@ p {
 #phone {
   grid-area: phone;
   width: 100%;
-  box-shadow: var(--standard-box-shadow);
-  border-radius: 50px;
 }
 
 #dash {
@@ -854,6 +852,16 @@ p {
   .hero .col-right {
     width: 40%;
   }
+  
+  /* PARTNERS GRID */
+
+  .partners-section {
+    margin: -60px 0 0 0;
+  }
+
+  .partners-grid {
+    margin: 0 0 var(--spacing-xl) 0;
+  }
 
   /* GRAPHIC GRID SECTION */
 
@@ -863,10 +871,6 @@ p {
   
   #slack-invoice {
     border-radius: 20px;
-  }
-  
-  #phone {
-    border-radius: 30px;
   }
   
   #dash {
@@ -979,6 +983,12 @@ p {
     transform: translateX(32px);
   }
 
+   /* PARTNERS GRID */
+
+   .partners-section {
+    margin: -20px 0 0 0;
+  }
+
   /* UNIFIED PLATFORM SECTION */
 
   .unified-platform-section h2 {
@@ -993,10 +1003,6 @@ p {
   
   #slack-invoice {
     border-radius: 15px;
-  }
-  
-  #phone {
-    border-radius: 20px;
   }
   
   #dash {
@@ -1097,6 +1103,10 @@ p {
   }
 
   /* PARTNERS GRID SECTION */
+
+   .partners-section {
+    margin: var(--spacing-xl) 0 var(--spacing-sm) 0;
+  }
 
   .partners-grid {
     grid-template-columns: 1fr 1fr;
